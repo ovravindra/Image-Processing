@@ -1,7 +1,7 @@
 
 import cv2
 
-
+'''
 cap = cv2.VideoCapture(0)
 cap.set(3, 640)
 cap.set(4, 480)
@@ -18,4 +18,3 @@ image= cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
 cv2.imshow("pic", image)
 
-'''
